@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+//@import "~bootstrap/scss/bootstrap";
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ao-ba-om-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  p, ul {
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  
